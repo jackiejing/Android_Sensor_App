@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Sensors Tool</string>
+    <string name="locations">locations</string>
+    <string name="x">x</string>
+    <string name="y">y</string>
+    <string name="p">p</string>
+    <string name="gravity">gravity</string>
+    <string name="angle">angle</string>
+    <string name="z">z</string>
+    <string name="get_location">get_location</string>
+    <string name="xianshun_jing">xianshun_jing</string>
+    <string name="xg">xg</string>
+    <string name="pressure">pressure</string>
+    <string name="todo">todo</string>
+    <string name="logo">logo</string>
+    <string name="accelerometer">accelerometer</string>
+    <string name="yg">yg</string>
+    <string name="zg">zg</string>
+    <string name="xianshun">xianshun</string>
+    <string name="location">Location</string>
+    <string name="Accelerometer">Accelerometer</string>
+    <string name="Gravity">Gravity</string>
+    <string name="Pressure">Pressure</string>
+    <string name="Xianshun_Jing">Xianshun Jing</string>
+    <string name="reference_compass_https_www_youtube_com_watch_v_izzgvlnzbfq_gravity_https_www_youtube_com_watch_v_oaevile2uri_accelerometer_https_www_youtube_com_watch_v_yri2pczc8cc_location_https_www_youtube_com_watch_v_fzqc9f_vvjs_pressure_https_www_youtube_com_watch_v_redlrzgyafk">Reference: Compass: https://www.youtube.com/watch?v=IzzGVLnZBfQ Gravity: https://www.youtube.com/watch?v=OAevile2UrI Accelerometer: https://www.youtube.com/watch?v=YrI2pCZC8cc Location: https://www.youtube.com/watch?v=FzQc9f_vVjs Pressure: https://www.youtube.com/watch?v=reDLrzGyAfk</string>
+</resources>
