@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="151dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="44dp"
+        android:onClick="buttonGetLocation"
+        android:text="@string/get_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="98dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:text="@string/location"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="163dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="cursive"
+        android:text="@string/Accelerometer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/xText"
+        android:layout_width="214dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/x"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/yText"
+        android:layout_width="213dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/y"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xText" />
+
+    <TextView
+        android:id="@+id/zText"
+        android:layout_width="212dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/z"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yText" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="235dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="@string/Pressure"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zText" />
+
+    <TextView
+        android:id="@+id/pText"
+        android:layout_width="223dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/p"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="250dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="@string/Gravity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="27sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pText" />
+
+    <TextView
+        android:id="@+id/xgText"
+        android:layout_width="352dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/xg"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/ygText"
+        android:layout_width="352dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/yg"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xgText" />
+
+    <TextView
+        android:id="@+id/zgText"
+        android:layout_width="358dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/zg"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ygText" />
+
+    <ImageView
+        android:id="@+id/compass"
+        android:layout_width="330dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="36dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/compass" />
+
+    <TextView
+        android:id="@+id/aText"
+        android:layout_width="60dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="156dp"
+        android:text="@string/angle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#616161"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="203dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="2dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="131dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="casual"
+        android:text="@string/Xianshun_Jing"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="145dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/reference_compass_https_www_youtube_com_watch_v_izzgvlnzbfq_gravity_https_www_youtube_com_watch_v_oaevile2uri_accelerometer_https_www_youtube_com_watch_v_yri2pczc8cc_location_https_www_youtube_com_watch_v_fzqc9f_vvjs_pressure_https_www_youtube_com_watch_v_redlrzgyafk"
+        android:textSize="10sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/compass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
